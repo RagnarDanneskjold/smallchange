@@ -31,7 +31,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x");
+uint256 hashGenesisBlock("0xd9b053a4ee88528e7b918b9b527cf67f55ba7d2093dd347ac371e655d9e5fbde");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Virtualcoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2770,12 +2770,12 @@ bool InitBlockIndex() {
         block.nVersion = 1;
         block.nTime    = 1389799248;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 385390352;
+        block.nNonce   = 385637962;
 
         if (fTestNet)
         {
             block.nTime    = 1389799248;
-            block.nNonce   = 385390352;
+            block.nNonce   = 385637962;
         }
 
         //// debug print
