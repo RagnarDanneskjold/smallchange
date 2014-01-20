@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Virtualcoin</source>
-        <translation>Om Virtualcoin</translation>
+        <source>About Koindashian</source>
+        <translation>Om Koindashian</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Virtualcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Virtualcoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Koindashian&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Koindashian&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The Virtualcoin developers</source>
-        <translation>Virtualcoin-udviklerne</translation>
+        <source>The Koindashian developers</source>
+        <translation>Koindashian-udviklerne</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Virtualcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine Virtualcoin-adresser til at modtage betalinger med. Du kan give en forskellig adresse til hver afsender, så du kan holde styr på, hvem der betaler dig.</translation>
+        <source>These are your Koindashian addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine Koindashian-adresser til at modtage betalinger med. Du kan give en forskellig adresse til hver afsender, så du kan holde styr på, hvem der betaler dig.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Virtualcoin address</source>
-        <translation>Underskriv en besked for at bevise, at en Virtualcoin-adresse tilhører dig</translation>
+        <source>Sign a message to prove you own a Koindashian address</source>
+        <translation>Underskriv en besked for at bevise, at en Koindashian-adresse tilhører dig</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Virtualcoin address</source>
-        <translation>Efterprøv en besked for at sikre, at den er underskrevet med den angivne Virtualcoin-adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified Koindashian address</source>
+        <translation>Efterprøv en besked for at sikre, at den er underskrevet med den angivne Koindashian-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Virtualcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Disse er dine Virtualcoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender virtualcoins.</translation>
+        <source>These are your Koindashian addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Disse er dine Koindashian-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender koindashians.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -138,7 +138,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>Send virtualcoins</translation>
+        <translation>Send koindashians</translation>
     </message>
     <message>
         <location line="+260"/>
@@ -275,8 +275,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-56"/>
-        <source>Virtualcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your virtualcoins from being stolen by malware infecting your computer.</source>
-        <translation>Virtualcoin vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine virtualcoins fuldt ud mod at blive stjålet af malware på din computer.</translation>
+        <source>Koindashian will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your koindashians from being stolen by malware infecting your computer.</source>
+        <translation>Koindashian vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine koindashians fuldt ud mod at blive stjålet af malware på din computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Virtualcoin</source>
-        <translation>Vis informationer om Virtualcoin</translation>
+        <source>Show information about Koindashian</source>
+        <translation>Vis informationer om Koindashian</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Virtualcoin address</source>
-        <translation>Send virtualcoins til en Virtualcoin-adresse</translation>
+        <source>Send coins to a Koindashian address</source>
+        <translation>Send koindashians til en Koindashian-adresse</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Virtualcoin</source>
-        <translation>Rediger konfigurationsindstillinger af Virtualcoin</translation>
+        <source>Modify configuration options for Koindashian</source>
+        <translation>Rediger konfigurationsindstillinger af Koindashian</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Virtualcoin</source>
-        <translation>Virtualcoin</translation>
+        <source>Koindashian</source>
+        <translation>Koindashian</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Virtualcoin</source>
-        <translation>Om Virtualcoin</translation>
+        <source>&amp;About Koindashian</source>
+        <translation>Om Koindashian</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Virtualcoin addresses to prove you own them</source>
-        <translation>Underskriv beskeder med dine Virtualcoin-adresser for at bevise, at de tilhører dig</translation>
+        <source>Sign messages with your Koindashian addresses to prove you own them</source>
+        <translation>Underskriv beskeder med dine Koindashian-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Virtualcoin addresses</source>
-        <translation>Efterprøv beskeder for at sikre, at de er underskrevet med de(n) angivne Virtualcoin-adresse(r)</translation>
+        <source>Verify messages to ensure they were signed with specified Koindashian addresses</source>
+        <translation>Efterprøv beskeder for at sikre, at de er underskrevet med de(n) angivne Koindashian-adresse(r)</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+47"/>
-        <source>Virtualcoin client</source>
-        <translation>Virtualcoin-klient</translation>
+        <source>Koindashian client</source>
+        <translation>Koindashian-klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Virtualcoin network</source>
-        <translation><numerusform>%n aktiv(e) forbindelse(r) til Virtualcoin-netværket</numerusform><numerusform>%n aktiv(e) forbindelse(r) til Virtualcoin-netværket</numerusform></translation>
+        <source>%n active connection(s) to Koindashian network</source>
+        <translation><numerusform>%n aktiv(e) forbindelse(r) til Koindashian-netværket</numerusform><numerusform>%n aktiv(e) forbindelse(r) til Koindashian-netværket</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresse: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Virtualcoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke fortolkes! Dette kan skyldes en ugyldig Virtualcoin-adresse eller misdannede URI-parametre.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Koindashian address or malformed URI parameters.</source>
+        <translation>URI kan ikke fortolkes! Dette kan skyldes en ugyldig Koindashian-adresse eller misdannede URI-parametre.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Virtualcoin can no longer continue safely and will quit.</source>
-        <translation>Der opstod en fatal fejl. Virtualcoin kan ikke længere fortsætte sikkert og vil afslutte.</translation>
+        <source>A fatal error occurred. Koindashian can no longer continue safely and will quit.</source>
+        <translation>Der opstod en fatal fejl. Koindashian kan ikke længere fortsætte sikkert og vil afslutte.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresse: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Virtualcoin address.</source>
-        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig Virtualcoin-adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Koindashian address.</source>
+        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig Koindashian-adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresse: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Virtualcoin-Qt</source>
-        <translation>Virtualcoin-Qt</translation>
+        <source>Koindashian-Qt</source>
+        <translation>Koindashian-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresse: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Virtualcoin after logging in to the system.</source>
-        <translation>Start Virtualcoin automatisk, når der logges ind på systemet</translation>
+        <source>Automatically start Koindashian after logging in to the system.</source>
+        <translation>Start Koindashian automatisk, når der logges ind på systemet</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Virtualcoin on system login</source>
-        <translation>Start Virtualcoin, når systemet startes</translation>
+        <source>&amp;Start Koindashian on system login</source>
+        <translation>Start Koindashian, når systemet startes</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Virtualcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn Virtualcoin-klientens port på routeren automatisk. Dette virker kun, når din router understøtter UPnP og UPnP er aktiveret.</translation>
+        <source>Automatically open the Koindashian client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn Koindashian-klientens port på routeren automatisk. Dette virker kun, når din router understøtter UPnP og UPnP er aktiveret.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Virtualcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Opret forbindelse til Virtualcoin-netværket via en SOCKS-proxy (f.eks. ved tilslutning gennem Tor)</translation>
+        <source>Connect to the Koindashian network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Opret forbindelse til Koindashian-netværket via en SOCKS-proxy (f.eks. ved tilslutning gennem Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Virtualcoin.</source>
-        <translation>Brugergrænsefladesproget kan angives her. Denne indstilling træder først i kraft, når Virtualcoin genstartes.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Koindashian.</source>
+        <translation>Brugergrænsefladesproget kan angives her. Denne indstilling træder først i kraft, når Koindashian genstartes.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -940,12 +940,12 @@ Adresse: %4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Vælg den standard underopdelingsenhed, som skal vises i brugergrænsefladen og ved afsendelse af virtualcoins.</translation>
+        <translation>Vælg den standard underopdelingsenhed, som skal vises i brugergrænsefladen og ved afsendelse af koindashians.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Virtualcoin addresses in the transaction list or not.</source>
-        <translation>Afgør hvorvidt Virtualcoin-adresser skal vises i transaktionslisten eller ej.</translation>
+        <source>Whether to show Koindashian addresses in the transaction list or not.</source>
+        <translation>Afgør hvorvidt Koindashian-adresser skal vises i transaktionslisten eller ej.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresse: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Virtualcoin.</source>
-        <translation>Denne indstilling træder i kraft, efter Virtualcoin genstartes.</translation>
+        <source>This setting will take effect after restarting Koindashian.</source>
+        <translation>Denne indstilling træder i kraft, efter Koindashian genstartes.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresse: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Virtualcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Virtualcoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Koindashian network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Koindashian-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adresse: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start virtualcoin: click-to-pay handler</source>
-        <translation>Kan ikke starte virtualcoin: click-to-pay-håndtering</translation>
+        <source>Cannot start koindashian: click-to-pay handler</source>
+        <translation>Kan ikke starte koindashian: click-to-pay-håndtering</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Virtualcoin-Qt help message to get a list with possible Virtualcoin command-line options.</source>
-        <translation>Vis Virtualcoin-Qt-hjælpebeskeden for at få en liste over de tilgængelige Virtualcoin-kommandolinjeindstillinger.</translation>
+        <source>Show the Koindashian-Qt help message to get a list with possible Koindashian command-line options.</source>
+        <translation>Vis Koindashian-Qt-hjælpebeskeden for at få en liste over de tilgængelige Koindashian-kommandolinjeindstillinger.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresse: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Virtualcoin - Debug window</source>
-        <translation>Virtualcoin - Fejlsøgningsvindue</translation>
+        <source>Koindashian - Debug window</source>
+        <translation>Koindashian - Fejlsøgningsvindue</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Virtualcoin Core</source>
-        <translation>Virtualcoin Core</translation>
+        <source>Koindashian Core</source>
+        <translation>Koindashian Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Virtualcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Virtualcoin-fejlsøgningslogfilen fra det nuværende datakatalog. Dette kan tage nogle få sekunder for en store logfiler.</translation>
+        <source>Open the Koindashian debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn Koindashian-fejlsøgningslogfilen fra det nuværende datakatalog. Dette kan tage nogle få sekunder for en store logfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Virtualcoin RPC console.</source>
-        <translation>Velkommen til Virtualcoin RPC-konsollen</translation>
+        <source>Welcome to the Koindashian RPC console.</source>
+        <translation>Velkommen til Koindashian RPC-konsollen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1290,7 +1290,7 @@ Adresse: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Send virtualcoins</translation>
+        <translation>Send koindashians</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1340,7 +1340,7 @@ Adresse: %4
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Bekræft afsendelse af virtualcoins</translation>
+        <translation>Bekræft afsendelse af koindashians</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1385,7 +1385,7 @@ Adresse: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fejl: Transaktionen blev afvist. Dette kan ske, hvis nogle af dine virtualcoins i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine virtualcoins er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
+        <translation>Fejl: Transaktionen blev afvist. Dette kan ske, hvis nogle af dine koindashians i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine koindashians er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
     </message>
 </context>
 <context>
@@ -1408,7 +1408,7 @@ Adresse: %4
     <message>
         <location line="+34"/>
         <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Virtualcoin-adressen som betalingen skal sendes til (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Koindashian-adressen som betalingen skal sendes til (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Virtualcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Indtast en Virtualcoin-adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Koindashian address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Indtast en Koindashian-adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1467,12 +1467,12 @@ Adresse: %4
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan underskrive beskeder med dine Virtualcoin-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
+        <translation>Du kan underskrive beskeder med dine Koindashian-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Virtualcoin-adressen som beskeden skal underskrives med (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Koindashian-adressen som beskeden skal underskrives med (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1513,8 +1513,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Virtualcoin address</source>
-        <translation>Underskriv denne besked for at bevise, at Virtualcoin-adressen tilhører dig</translation>
+        <source>Sign the message to prove you own this Koindashian address</source>
+        <translation>Underskriv denne besked for at bevise, at Koindashian-adressen tilhører dig</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1545,12 +1545,12 @@ Adresse: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Virtualcoin-adressen som beskeden er underskrevet med (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Koindashian-adressen som beskeden er underskrevet med (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Virtualcoin address</source>
-        <translation>Efterprøv beskeden for at sikre, at den er underskrevet med den angivne Virtualcoin-adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified Koindashian address</source>
+        <translation>Efterprøv beskeden for at sikre, at den er underskrevet med den angivne Koindashian-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresse: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Virtualcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Indtast en Virtualcoin-adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Koindashian address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Indtast en Koindashian-adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Virtualcoin signature</source>
-        <translation>Indtast Virtualcoin-underskriften</translation>
+        <source>Enter Koindashian signature</source>
+        <translation>Indtast Koindashian-underskriften</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adresse: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Virtualcoin developers</source>
-        <translation>Virtualcoin-udviklerne</translation>
+        <source>The Koindashian developers</source>
+        <translation>Koindashian-udviklerne</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1784,7 +1784,7 @@ Adresse: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Genererede virtualcoins skal vente 120 blokke, før de kan blive brugt. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det mislykkes at komme ind i kæden, vil den skifte til &quot;ikke godkendt&quot; og ikke blive kunne bruges. Dette kan lejlighedsvis ske, hvis en anden knude genererer en blok inden for få sekunder af din.</translation>
+        <translation>Genererede koindashians skal vente 120 blokke, før de kan blive brugt. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det mislykkes at komme ind i kæden, vil den skifte til &quot;ikke godkendt&quot; og ikke blive kunne bruges. Dette kan lejlighedsvis ske, hvis en anden knude genererer en blok inden for få sekunder af din.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2137,7 +2137,7 @@ Adresse: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Send virtualcoins</translation>
+        <translation>Send koindashians</translation>
     </message>
 </context>
 <context>
@@ -2187,8 +2187,8 @@ Adresse: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Virtualcoin version</source>
-        <translation>Virtualcoin-version</translation>
+        <source>Koindashian version</source>
+        <translation>Koindashian-version</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adresse: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or virtualcoind</source>
-        <translation>Send kommando til -server eller virtualcoind</translation>
+        <source>Send command to -server or koindashiand</source>
+        <translation>Send kommando til -server eller koindashiand</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adresse: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: virtualcoin.conf)</source>
-        <translation>Angiv konfigurationsfil (standard: virtualcoin.conf)</translation>
+        <source>Specify configuration file (default: koindashian.conf)</source>
+        <translation>Angiv konfigurationsfil (standard: koindashian.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: virtualcoind.pid)</source>
-        <translation>Angiv pid-fil (default: virtualcoind.pid)</translation>
+        <source>Specify pid file (default: koindashiand.pid)</source>
+        <translation>Angiv pid-fil (default: koindashiand.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,24 +2300,24 @@ Adresse: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=virtualcoinrpc
+rpcuser=koindashianrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Koindashian Alert&quot; admin@foo.com
 </source>
         <translation>%s, du skal angive en RPC-adgangskode i konfigurationsfilen:
 %s
 Det anbefales, at du bruger nedenstående, tilfældige adgangskode:
-rpcuser=virtualcoinrpc
+rpcuser=koindashianrpc
 rpcpassword=%s
 (du behøver ikke huske denne adgangskode)
 Brugernavnet og adgangskode MÅ IKKE være det samme.
 Hvis filen ikke eksisterer, opret den og giv ingen andre end ejeren læserettighed.
 Det anbefales også at angive alertnotify, så du påmindes om problemer;
-f.eks.: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@foo.com
+f.eks.: alertnotify=echo %%s | mail -s &quot;Koindashian Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,18 +2332,18 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Virtualcoin is probably already running.</source>
-        <translation>Kan ikke opnå lås på datakatalog %s. Virtualcoin er sandsynligvis allerede startet.</translation>
+        <source>Cannot obtain a lock on data directory %s. Koindashian is probably already running.</source>
+        <translation>Kan ikke opnå lås på datakatalog %s. Koindashian er sandsynligvis allerede startet.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fejl: Transaktionen blev afvist. Dette kan ske, hvis nogle af dine virtualcoins i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine virtualcoins er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
+        <translation>Fejl: Transaktionen blev afvist. Dette kan ske, hvis nogle af dine koindashians i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine koindashians er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fejl: Denne transaktion kræver et transaktionsgebyr på minimum %s pga. dens størrelse, kompleksitet eller anvendelse af nyligt modtagne virtualcoins!</translation>
+        <translation>Fejl: Denne transaktion kræver et transaktionsgebyr på minimum %s pga. dens størrelse, kompleksitet eller anvendelse af nyligt modtagne koindashians!</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Virtualcoin will not work properly.</source>
-        <translation>Advarsel: Undersøg venligst, at din computers dato og klokkeslæt er korrekt indstillet! Hvis der er fejl i disse, vil Virtualcoin ikke fungere korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Koindashian will not work properly.</source>
+        <translation>Advarsel: Undersøg venligst, at din computers dato og klokkeslæt er korrekt indstillet! Hvis der er fejl i disse, vil Koindashian ikke fungere korrekt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2498,7 +2498,7 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@foo.c
     <message>
         <location line="+1"/>
         <source>Failed to write to coin database</source>
-        <translation>Skrivning af virtualcoin-database mislykkedes</translation>
+        <translation>Skrivning af koindashian-database mislykkedes</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2518,7 +2518,7 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@foo.c
     <message>
         <location line="+1"/>
         <source>Generate coins (default: 0)</source>
-        <translation>Generer virtualcoins (standard: 0)</translation>
+        <translation>Generer koindashians (standard: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2627,8 +2627,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Virtualcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-indstillinger: (se Virtualcoin Wiki for SSL-opsætningsinstruktioner)</translation>
+        <source>SSL options: (see the Koindashian Wiki for SSL setup instructions)</source>
+        <translation>SSL-indstillinger: (se Koindashian Wiki for SSL-opsætningsinstruktioner)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Virtualcoin</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Virtualcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Koindashian</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Koindashian</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Virtualcoin to complete</source>
-        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Virtualcoin for at gennemføre</translation>
+        <source>Wallet needed to be rewritten: restart Koindashian to complete</source>
+        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Koindashian for at gennemføre</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Virtualcoin is probably already running.</source>
-        <translation>Kunne ikke tildele %s på denne computer. Virtualcoin kører sikkert allerede.</translation>
+        <source>Unable to bind to %s on this computer. Koindashian is probably already running.</source>
+        <translation>Kunne ikke tildele %s på denne computer. Koindashian kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="+64"/>

@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Virtualcoin</source>
-        <translation>O Virtualcoinu</translation>
+        <source>About Koindashian</source>
+        <translation>O Koindashianu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Virtualcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Virtualcoin&lt;/b&gt; verze</translation>
+        <source>&lt;b&gt;Koindashian&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Koindashian&lt;/b&gt; verze</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The Virtualcoin developers</source>
-        <translation>Vývojáři Virtualcoinu</translation>
+        <source>The Koindashian developers</source>
+        <translation>Vývojáři Koindashianu</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Virtualcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tohle jsou tvé Virtualcoinové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
+        <source>These are your Koindashian addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tohle jsou tvé Koindashianové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Virtualcoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem Virtualcoinové adresy</translation>
+        <source>Sign a message to prove you own a Koindashian address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem Koindashianové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Virtualcoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Virtualcoinovou adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified Koindashian address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Koindashianovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Virtualcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tohle jsou tvé Virtualcoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
+        <source>These are your Koindashian addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tohle jsou tvé Koindashianové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-56"/>
-        <source>Virtualcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your virtualcoins from being stolen by malware infecting your computer.</source>
-        <translation>Virtualcoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých virtualcoinů malwarem, kterým se může počítač nakazit.</translation>
+        <source>Koindashian will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your koindashians from being stolen by malware infecting your computer.</source>
+        <translation>Koindashian se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých koindashianů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Virtualcoin</source>
-        <translation>Zobraz informace o Virtualcoinu</translation>
+        <source>Show information about Koindashian</source>
+        <translation>Zobraz informace o Koindashianu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Virtualcoin address</source>
-        <translation>Pošli mince na Virtualcoinovou adresu</translation>
+        <source>Send coins to a Koindashian address</source>
+        <translation>Pošli mince na Koindashianovou adresu</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Virtualcoin</source>
-        <translation>Uprav nastavení Virtualcoinu</translation>
+        <source>Modify configuration options for Koindashian</source>
+        <translation>Uprav nastavení Koindashianu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Virtualcoin</source>
-        <translation>Virtualcoin</translation>
+        <source>Koindashian</source>
+        <translation>Koindashian</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Virtualcoin</source>
-        <translation>O &amp;Virtualcoinu</translation>
+        <source>&amp;About Koindashian</source>
+        <translation>O &amp;Koindashianu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Virtualcoin addresses to prove you own them</source>
-        <translation>Podepiš zprávy svými Virtualcoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
+        <source>Sign messages with your Koindashian addresses to prove you own them</source>
+        <translation>Podepiš zprávy svými Koindashianovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Virtualcoin addresses</source>
-        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Virtualcoinovými adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Koindashian addresses</source>
+        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Koindashianovými adresami</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+47"/>
-        <source>Virtualcoin client</source>
-        <translation>Virtualcoin klient</translation>
+        <source>Koindashian client</source>
+        <translation>Koindashian klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Virtualcoin network</source>
-        <translation><numerusform>%n aktivní spojení do Virtualcoinové sítě</numerusform><numerusform>%n aktivní spojení do Virtualcoinové sítě</numerusform><numerusform>%n aktivních spojení do Virtualcoinové sítě</numerusform></translation>
+        <source>%n active connection(s) to Koindashian network</source>
+        <translation><numerusform>%n aktivní spojení do Koindashianové sítě</numerusform><numerusform>%n aktivní spojení do Koindashianové sítě</numerusform><numerusform>%n aktivních spojení do Koindashianové sítě</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresa: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Virtualcoin address or malformed URI parameters.</source>
-        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Virtualcoinová adresa nebo poškozené parametry URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Koindashian address or malformed URI parameters.</source>
+        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Koindashianová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Virtualcoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. Virtualcoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. Koindashian can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. Koindashian nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Virtualcoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná Virtualcoinová adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Koindashian address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná Koindashianová adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresa: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Virtualcoin-Qt</source>
-        <translation>Virtualcoin-Qt</translation>
+        <source>Koindashian-Qt</source>
+        <translation>Koindashian-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Virtualcoin after logging in to the system.</source>
-        <translation>Automaticky spustí Virtualcoin po přihlášení do systému.</translation>
+        <source>Automatically start Koindashian after logging in to the system.</source>
+        <translation>Automaticky spustí Koindashian po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Virtualcoin on system login</source>
-        <translation>S&amp;pustit Virtualcoin po přihlášení do systému</translation>
+        <source>&amp;Start Koindashian on system login</source>
+        <translation>S&amp;pustit Koindashian po přihlášení do systému</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,7 +844,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Virtualcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Koindashian client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -854,8 +854,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Virtualcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Připojí se do Virtualcoinové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
+        <source>Connect to the Koindashian network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Připojí se do Koindashianové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Virtualcoin.</source>
-        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Virtualcoinu.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Koindashian.</source>
+        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Koindashianu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Virtualcoin addresses in the transaction list or not.</source>
-        <translation>Zda ukazovat virtualcoinové adresy ve výpisu transakcí nebo ne.</translation>
+        <source>Whether to show Koindashian addresses in the transaction list or not.</source>
+        <translation>Zda ukazovat koindashianové adresy ve výpisu transakcí nebo ne.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresa: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Virtualcoin.</source>
-        <translation>Nastavení se projeví až po restartování Virtualcoinu.</translation>
+        <source>This setting will take effect after restarting Koindashian.</source>
+        <translation>Nastavení se projeví až po restartování Koindashianu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresa: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Virtualcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Virtualcoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Koindashian network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Koindashianovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adresa: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start virtualcoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit virtualcoin: obsluha click-to-pay</translation>
+        <source>Cannot start koindashian: click-to-pay handler</source>
+        <translation>Nemůžu spustit koindashian: obsluha click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Virtualcoin-Qt help message to get a list with possible Virtualcoin command-line options.</source>
-        <translation>Seznam parametrů Virtualcoinu pro příkazovou řádku získáš v nápovědě Virtualcoinu Qt.</translation>
+        <source>Show the Koindashian-Qt help message to get a list with possible Koindashian command-line options.</source>
+        <translation>Seznam parametrů Koindashianu pro příkazovou řádku získáš v nápovědě Koindashianu Qt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresa: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Virtualcoin - Debug window</source>
-        <translation>Virtualcoin - ladicí okno</translation>
+        <source>Koindashian - Debug window</source>
+        <translation>Koindashian - ladicí okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Virtualcoin Core</source>
-        <translation>Jádro Virtualcoinu</translation>
+        <source>Koindashian Core</source>
+        <translation>Jádro Koindashianu</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Virtualcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři soubor s ladicími záznamy Virtualcoinu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
+        <source>Open the Koindashian debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři soubor s ladicími záznamy Koindashianu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Virtualcoin RPC console.</source>
-        <translation>Vítej v Virtualcoinové RPC konzoli.</translation>
+        <source>Welcome to the Koindashian RPC console.</source>
+        <translation>Vítej v Koindashianové RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Virtualcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadej Virtualcoinovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Koindashian address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadej Koindashianovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Virtualcoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Virtualcoinové adresy</translation>
+        <source>Sign the message to prove you own this Koindashian address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Koindashianové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Virtualcoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Virtualcoinovou adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Koindashian address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Koindashianovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresa: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Virtualcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadej Virtualcoinovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Koindashian address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadej Koindashianovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Virtualcoin signature</source>
-        <translation>Vlož Virtualcoinový podpis</translation>
+        <source>Enter Koindashian signature</source>
+        <translation>Vlož Koindashianový podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adresa: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Virtualcoin developers</source>
-        <translation>Vývojáři Virtualcoinu</translation>
+        <source>The Koindashian developers</source>
+        <translation>Vývojáři Koindashianu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adresa: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Virtualcoin version</source>
-        <translation>Verze Virtualcoinu</translation>
+        <source>Koindashian version</source>
+        <translation>Verze Koindashianu</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or virtualcoind</source>
-        <translation>Poslat příkaz pro -server nebo virtualcoind</translation>
+        <source>Send command to -server or koindashiand</source>
+        <translation>Poslat příkaz pro -server nebo koindashiand</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: virtualcoin.conf)</source>
-        <translation>Konfigurační soubor (výchozí: virtualcoin.conf)</translation>
+        <source>Specify configuration file (default: koindashian.conf)</source>
+        <translation>Konfigurační soubor (výchozí: koindashian.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: virtualcoind.pid)</source>
-        <translation>PID soubor (výchozí: virtualcoind.pid)</translation>
+        <source>Specify pid file (default: koindashiand.pid)</source>
+        <translation>PID soubor (výchozí: koindashiand.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,24 +2300,24 @@ Adresa: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=virtualcoinrpc
+rpcuser=koindashianrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Koindashian Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
 %s
 Je vhodné použít následující náhodné heslo:
-rpcuser=virtualcoinrpc
+rpcuser=koindashianrpc
 rpcpassword=%s
 (není potřeba si ho pamatovat)
 rpcuser a rpcpassword NESMÍ být stejné.
 Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
 Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
-například: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@foo.com
+například: alertnotify=echo %%s | mail -s &quot;Koindashian Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ například: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Virtualcoin is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. Virtualcoin pravděpodobně už jednou běží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Koindashian is probably already running.</source>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. Koindashian pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ například: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Virtualcoin will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Virtualcoin nebude fungovat správně.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Koindashian will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Koindashian nebude fungovat správně.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ například: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Virtualcoin Wiki for SSL setup instructions)</source>
-        <translation>Možnosti SSL: (viz instrukce nastavení SSL v Virtualcoin Wiki)</translation>
+        <source>SSL options: (see the Koindashian Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL: (viz instrukce nastavení SSL v Koindashian Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ například: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Virtualcoin</source>
-        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Virtualcoinu</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Koindashian</source>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Koindashianu</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Virtualcoin to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Virtualcoin, aby se operace dokončila</translation>
+        <source>Wallet needed to be rewritten: restart Koindashian to complete</source>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Koindashian, aby se operace dokončila</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ například: alertnotify=echo %%s | mail -s &quot;Virtualcoin Alert&quot; admin@
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Virtualcoin is probably already running.</source>
-        <translation>Nedaří se mi připojit na %s na tomhle počítači. Virtualcoin už pravděpodobně jednou běží.</translation>
+        <source>Unable to bind to %s on this computer. Koindashian is probably already running.</source>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. Koindashian už pravděpodobně jednou běží.</translation>
     </message>
     <message>
         <location line="+64"/>

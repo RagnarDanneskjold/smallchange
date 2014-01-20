@@ -1,8 +1,8 @@
-Virtualcoin 0.8.x BETA
+Koindashian 0.8.x BETA
 ====================
 
 Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 Virtualcoin Developers
+Copyright (c) 2011-2013 Koindashian Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -12,7 +12,7 @@ cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cry
 
 Intro
 ---------------------
-Virtualcoin is a free open source peer-to-peer electronic cash system that is
+Koindashian is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -20,17 +20,17 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 ---------------------
-You need the Qt4 run-time libraries to run Virtualcoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Koindashian-Qt. On Debian or Ubuntu:
 	`sudo apt-get install libqtgui4`
 
 Unpack the files into a directory and run:
 
-- bin/32/virtualcoin-qt (GUI, 32-bit)
-- bin/32/virtualcoind (headless, 32-bit)
-- bin/64/virtualcoin-qt (GUI, 64-bit)
-- bin/64/virtualcoind (headless, 64-bit)
+- bin/32/koindashian-qt (GUI, 32-bit)
+- bin/32/koindashiand (headless, 32-bit)
+- bin/64/koindashian-qt (GUI, 64-bit)
+- bin/64/koindashiand (headless, 64-bit)
 
-See the documentation at the [Virtualcoin Wiki](http://virtualcoin.info)
+See the documentation at the [Koindashian Wiki](http://koindashian.info)
 for help and more information.
 
 

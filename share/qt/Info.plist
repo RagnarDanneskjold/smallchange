@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>virtualcoin.icns</string>
+	<string>koindashian.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Virtualcoin-Qt</string>
+	<string>Koindashian-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.virtualcoin.Virtualcoin-Qt</string>
+	<string>org.koindashian.Koindashian-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.virtualcoin.VirtualcoinPayment</string>
+            <string>org.koindashian.KoindashianPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>virtualcoin</string>
+              <string>koindashian</string>
             </array>
           </dict>
         </array>

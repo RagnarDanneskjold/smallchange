@@ -6,7 +6,7 @@ Release Process
 ###update (commit) version in sources
 
 
-	virtualcoin-qt.pro
+	koindashian-qt.pro
 	contrib/verifysfbinaries/verify.sh
 	doc/README*
 	share/setup.nsi
@@ -24,7 +24,7 @@ Release Process
 
 ##perform gitian builds
 
- From a directory containing the virtualcoin source, gitian-builder and gitian.sigs
+ From a directory containing the koindashian source, gitian-builder and gitian.sigs
   
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
 	export VERSION=0.8.0
@@ -42,54 +42,54 @@ Release Process
 	wget 'http://downloads.sourceforge.net/project/boost/boost/1.50.0/boost_1_50_0.tar.bz2'
 	wget 'http://releases.qt-project.org/qt4/source/qt-everywhere-opensource-src-4.8.3.tar.gz'
 	cd ..
-	./bin/gbuild ../virtualcoin/contrib/gitian-descriptors/boost-win32.yml
+	./bin/gbuild ../koindashian/contrib/gitian-descriptors/boost-win32.yml
 	mv build/out/boost-win32-1.50.0-gitian2.zip inputs/
-	./bin/gbuild ../virtualcoin/contrib/gitian-descriptors/qt-win32.yml
+	./bin/gbuild ../koindashian/contrib/gitian-descriptors/qt-win32.yml
 	mv build/out/qt-win32-4.8.3-gitian-r1.zip inputs/
-	./bin/gbuild ../virtualcoin/contrib/gitian-descriptors/deps-win32.yml
-	mv build/out/virtualcoin-deps-0.0.5.zip inputs/
+	./bin/gbuild ../koindashian/contrib/gitian-descriptors/deps-win32.yml
+	mv build/out/koindashian-deps-0.0.5.zip inputs/
 
- Build virtualcoind and virtualcoin-qt on Linux32, Linux64, and Win32:
+ Build koindashiand and koindashian-qt on Linux32, Linux64, and Win32:
   
-	./bin/gbuild --commit virtualcoin=v${VERSION} ../virtualcoin/contrib/gitian-descriptors/gitian.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../virtualcoin/contrib/gitian-descriptors/gitian.yml
+	./bin/gbuild --commit koindashian=v${VERSION} ../koindashian/contrib/gitian-descriptors/gitian.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../koindashian/contrib/gitian-descriptors/gitian.yml
 	pushd build/out
-	zip -r virtualcoin-${VERSION}-linux-gitian.zip *
-	mv virtualcoin-${VERSION}-linux-gitian.zip ../../
+	zip -r koindashian-${VERSION}-linux-gitian.zip *
+	mv koindashian-${VERSION}-linux-gitian.zip ../../
 	popd
-	./bin/gbuild --commit virtualcoin=v${VERSION} ../virtualcoin/contrib/gitian-descriptors/gitian-win32.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win32 --destination ../gitian.sigs/ ../virtualcoin/contrib/gitian-descriptors/gitian-win32.yml
+	./bin/gbuild --commit koindashian=v${VERSION} ../koindashian/contrib/gitian-descriptors/gitian-win32.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win32 --destination ../gitian.sigs/ ../koindashian/contrib/gitian-descriptors/gitian-win32.yml
 	pushd build/out
-	zip -r virtualcoin-${VERSION}-win32-gitian.zip *
-	mv virtualcoin-${VERSION}-win32-gitian.zip ../../
+	zip -r koindashian-${VERSION}-win32-gitian.zip *
+	mv koindashian-${VERSION}-win32-gitian.zip ../../
 	popd
 
   Build output expected:
 
-  1. linux 32-bit and 64-bit binaries + source (virtualcoin-${VERSION}-linux-gitian.zip)
-  2. windows 32-bit binary, installer + source (virtualcoin-${VERSION}-win32-gitian.zip)
+  1. linux 32-bit and 64-bit binaries + source (koindashian-${VERSION}-linux-gitian.zip)
+  2. windows 32-bit binary, installer + source (koindashian-${VERSION}-win32-gitian.zip)
   3. Gitian signatures (in gitian.sigs/${VERSION}[-win32]/(your gitian key)/
 
 repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 **Linux .tar.gz:**
 
-	unzip virtualcoin-${VERSION}-linux-gitian.zip -d virtualcoin-${VERSION}-linux
-	tar czvf virtualcoin-${VERSION}-linux.tar.gz virtualcoin-${VERSION}-linux
-	rm -rf virtualcoin-${VERSION}-linux
+	unzip koindashian-${VERSION}-linux-gitian.zip -d koindashian-${VERSION}-linux
+	tar czvf koindashian-${VERSION}-linux.tar.gz koindashian-${VERSION}-linux
+	rm -rf koindashian-${VERSION}-linux
 
 **Windows .zip and setup.exe:**
 
-	unzip virtualcoin-${VERSION}-win32-gitian.zip -d virtualcoin-${VERSION}-win32
-	mv virtualcoin-${VERSION}-win32/virtualcoin-*-setup.exe .
-	zip -r virtualcoin-${VERSION}-win32.zip bitcoin-${VERSION}-win32
-	rm -rf virtualcoin-${VERSION}-win32
+	unzip koindashian-${VERSION}-win32-gitian.zip -d koindashian-${VERSION}-win32
+	mv koindashian-${VERSION}-win32/koindashian-*-setup.exe .
+	zip -r koindashian-${VERSION}-win32.zip bitcoin-${VERSION}-win32
+	rm -rf koindashian-${VERSION}-win32
 
 **Perform Mac build:**
 
   OSX binaries are created by Gavin Andresen on a 32-bit, OSX 10.6 machine.
 
-	qmake RELEASE=1 USE_UPNP=1 USE_QRCODE=1 virtualcoin-qt.pro
+	qmake RELEASE=1 USE_UPNP=1 USE_QRCODE=1 koindashian-qt.pro
 	make
 	export QTDIR=/opt/local/share/qt4  # needed to find translations/qt_*.qm files
 	T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
@@ -107,14 +107,14 @@ repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 * create SHA256SUMS for builds, and PGP-sign it
 
-* update virtualcoin.org version
+* update koindashian.org version
   make sure all OS download links go to the right versions
 
 * update forum version
 
 * update wiki download links
 
-* update wiki changelog: [https://en.virtualcoin.it/wiki/Changelog](https://en.bitcoin.it/wiki/Changelog)
+* update wiki changelog: [https://en.koindashian.it/wiki/Changelog](https://en.bitcoin.it/wiki/Changelog)
 
 Commit your signature to gitian.sigs:
 
@@ -129,32 +129,32 @@ Commit your signature to gitian.sigs:
 
 ### After 3 or more people have gitian-built, repackage gitian-signed zips:
 
-From a directory containing virtualcoin source, gitian.sigs and gitian zips
+From a directory containing koindashian source, gitian.sigs and gitian zips
 
 	export VERSION=0.5.1
-	mkdir virtualcoin-${VERSION}-linux-gitian
-	pushd virtualcoin-${VERSION}-linux-gitian
-	unzip ../virtualcoin-${VERSION}-linux-gitian.zip
+	mkdir koindashian-${VERSION}-linux-gitian
+	pushd koindashian-${VERSION}-linux-gitian
+	unzip ../koindashian-${VERSION}-linux-gitian.zip
 	mkdir gitian
-	cp ../virtualcoin/contrib/gitian-downloader/*.pgp ./gitian/
+	cp ../koindashian/contrib/gitian-downloader/*.pgp ./gitian/
 	for signer in $(ls ../gitian.sigs/${VERSION}/); do
-	 cp ../gitian.sigs/${VERSION}/${signer}/virtualcoin-build.assert ./gitian/${signer}-build.assert
-	 cp ../gitian.sigs/${VERSION}/${signer}/virtualcoin-build.assert.sig ./gitian/${signer}-build.assert.sig
+	 cp ../gitian.sigs/${VERSION}/${signer}/koindashian-build.assert ./gitian/${signer}-build.assert
+	 cp ../gitian.sigs/${VERSION}/${signer}/koindashian-build.assert.sig ./gitian/${signer}-build.assert.sig
 	done
-	zip -r virtualcoin-${VERSION}-linux-gitian.zip *
-	cp virtualcoin-${VERSION}-linux-gitian.zip ../
+	zip -r koindashian-${VERSION}-linux-gitian.zip *
+	cp koindashian-${VERSION}-linux-gitian.zip ../
 	popd
-	mkdir virtualcoin-${VERSION}-win32-gitian
-	pushd virtualcoin-${VERSION}-win32-gitian
-	unzip ../virtualcoin-${VERSION}-win32-gitian.zip
+	mkdir koindashian-${VERSION}-win32-gitian
+	pushd koindashian-${VERSION}-win32-gitian
+	unzip ../koindashian-${VERSION}-win32-gitian.zip
 	mkdir gitian
-	cp ../virtualcoin/contrib/gitian-downloader/*.pgp ./gitian/
+	cp ../koindashian/contrib/gitian-downloader/*.pgp ./gitian/
 	for signer in $(ls ../gitian.sigs/${VERSION}-win32/); do
-	 cp ../gitian.sigs/${VERSION}-win32/${signer}/virtualcoin-build.assert ./gitian/${signer}-build.assert
-	 cp ../gitian.sigs/${VERSION}-win32/${signer}/virtualcoin-build.assert.sig ./gitian/${signer}-build.assert.sig
+	 cp ../gitian.sigs/${VERSION}-win32/${signer}/koindashian-build.assert ./gitian/${signer}-build.assert
+	 cp ../gitian.sigs/${VERSION}-win32/${signer}/koindashian-build.assert.sig ./gitian/${signer}-build.assert.sig
 	done
-	zip -r virtualcoin-${VERSION}-win32-gitian.zip *
-	cp virtualcoin-${VERSION}-win32-gitian.zip ../
+	zip -r koindashian-${VERSION}-win32-gitian.zip *
+	cp koindashian-${VERSION}-win32-gitian.zip ../
 	popd
 
 - Upload gitian zips to SourceForge

@@ -1,9 +1,9 @@
-Building Virtualcoin
+Building Koindashian
 
-See doc/readme-qt.rst for instructions on building Virtualcoin-Qt,
+See doc/readme-qt.rst for instructions on building Koindashian-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Virtualcoin.
+implementation of Koindashian.
 
-See doc/build-*.txt for instructions on building virtualcoind,
+See doc/build-*.txt for instructions on building koindashiand,
 the intended-for-services, no-graphical-interface, reference
-implementation of Virtualcoin.
+implementation of Koindashian.
