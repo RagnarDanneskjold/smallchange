@@ -31,7 +31,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x");
+uint256 hashGenesisBlock("0xaa335389228976299853b3d6299bffced2856c9251003dae179306798d1397ae");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Koindashian: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -1066,7 +1066,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     int64 nSubsidy = 333333 * COIN;
 	
 	int64 tmp = nHeight / 840000;
-	
+	int i;	
 	for(i=1;i<=tmp;i++){
 		nSubsidy = nSubsidy * 2 / 3;
 	}
@@ -1078,7 +1078,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 }
 
 static const int64 nTargetTimespan = 3 * 60 * 60; // Koindashian: 3.5 days
-static const int64 nTargetSpacing = 0.3333333; // Koindashian: 2.5 minutes
+static const int64 nTargetSpacing = 20; // Koindashian: 2.5 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -2776,7 +2776,7 @@ bool InitBlockIndex() {
         block.nVersion = 1;
         block.nTime    = 1390222834;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 385637962;
+        block.nNonce   = 385652640;
 
         if (fTestNet)
         {
@@ -2789,7 +2789,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x"));
+        assert(block.hashMerkleRoot == uint256("fd8ea8d595f55527f28acca34dfed8f850e28f257d2fe054632adb93f5dda440"));
 
 
         // If genesis block hash does not match, then generate new genesis hash.
