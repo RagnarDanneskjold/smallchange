@@ -1,25 +1,55 @@
 Koindashian integration/staging tree
 ================================
 
-http://www.koindashian.org
+http://www.koindashian.com
 
 Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 Koindashian Developers
+Copyright (c) 2013-2275 Koindashian Developers
+
+###
+Koindashian [KOIN, ¤]
+http://koindashian.com/
 
 What is Koindashian?
-----------------
+Koindashian is like Bitcoin, but based on Litecoin, and much prettier. 
 
-Koindashian is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+License - pretty license
+Koindashian is released under the terms of the MIT license. See COPYING for more information or see http://opensource.org/licenses/MIT.
 
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+Development and contributions -
+Developers work in their own trees, then submit pull requests when they think their feature or bug fix is ready.
 
-For more information, as well as an immediately useable, binary version of
-the Koindashian client sofware, see http://www.koindashian.org.
+Frequently Asked Questions:
+
+How much Koindashian can exist?
+333,333,333,333 koins
+
+Block Target Every 0.333… Minutes
+
+3.3333.. Hour Difficulty Readjustments
+
+Initial block reward: 333,333
+
+Block reward adjustment rate[-1/3 or *.666..]: 333,333
+
+How to get Koindashian?
+
+Scrypt Proof of Work
+
+make koindashiand
+
+sudo apt-get install build-essential \
+                     libssl-dev \
+                     libdb5.1++-dev \
+                     libboost-all-dev \
+                     libqrencode-dev \
+                     libminiupnpc-dev
+
+cd src/
+make -f makefile.unix...
+###
+########
+########
 
 License
 -------
@@ -68,7 +98,7 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
+    qmake koindashian-qt_test=1 -o Makefile.test koindashian-qt.pro
     make -f Makefile.test
     ./koindashian-qt_test
 
